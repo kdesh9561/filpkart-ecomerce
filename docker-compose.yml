@@ -1,0 +1,5 @@
+version: '3'
+services:
+  web:
+    image: kdesh9561dockerhub/node-todo-cicd:latest
+

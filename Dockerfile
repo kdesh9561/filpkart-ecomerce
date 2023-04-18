@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN yum install httpd -y
+RUN apt-get install httpd -y
 
 COPY . /var/www/html/
 

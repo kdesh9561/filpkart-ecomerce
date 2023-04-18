@@ -1,6 +1,8 @@
-FROM alpine
+FROM centos
 
-RUN apt-get install httpd -y
+RUN yum install -y httpd
+
+RUN yum update -y 
 
 COPY . /var/www/html/
 
